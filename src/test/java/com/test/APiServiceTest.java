@@ -32,7 +32,7 @@ public class APiServiceTest {
 	public void testEmail(){
 		when(apiService.sendEmail("Email")).thenReturn(true);
 		
-		assertTrue(apiService.sendEmail("Email1"));
+		assertTrue(apiService.sendEmail("Email"));
 	}
 
 	@Test
